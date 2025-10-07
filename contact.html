@@ -1,59 +1,62 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Contact - HRM Careers Academy</title>
+<link rel="icon" href="favicon.png" type="image/png">
 <style>
-body{font-family:Segoe UI, Arial, sans-serif;margin:0;color:#222;}
-header{background:#000;color:gold;padding:20px 10px;text-align:center;}
-.logo{width:120px;height:auto;margin:0 auto 8px;display:block;}
-nav{background:#111;padding:10px;text-align:center;}
-nav a{color:gold;text-decoration:none;margin:0 10px;font-weight:700;}
-main{padding:30px 20px;max-width:700px;margin:0 auto;text-align:center;}
-.btn{background:gold;color:black;padding:10px 14px;border-radius:6px;text-decoration:none;font-weight:700;display:inline-block;margin:8px 0;}
-footer{background:#000;color:gold;padding:15px;margin-top:40px;text-align:center;}
-.input{width:100%;padding:10px;margin-bottom:10px;border-radius:6px;border:1px solid #ccc;}
+body{font-family:Segoe UI, Arial, sans-serif;margin:0;color:#222;background:#fff;}
+header{background:#000;color:gold;padding:28px 10px;text-align:center;}
+.logo{width:160px;height:auto;display:block;margin:0 auto 8px;}
+h1{margin:6px 0 0;font-size:34px;color:gold;}
+.slogan{color:#f2d98a;margin:6px 0 8px;font-style:italic;}
+.nav{background:#111;padding:10px;text-align:center;}
+.nav a{color:gold;text-decoration:none;margin:0 12px;font-weight:700;}
+main{padding:36px 18px;max-width:1000px;margin:0 auto;text-align:center;}
+.section{margin-bottom:36px;text-align:left;}
+.course{background:#fbf8f0;border-left:6px solid gold;padding:16px;margin-bottom:18px;border-radius:6px;text-align:left;}
+.btn{background:gold;color:black;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:700;display:inline-block;}
+footer{background:#000;color:gold;padding:18px;margin-top:40px;text-align:center;font-size:0.95em;}
+@media(max-width:600px){.logo{width:120px}.nav a{display:inline-block;margin:6px}}
 </style>
 </head>
 <body>
 <header>
-  <img src="logo.png" class="logo" alt="HRM Careers Academy logo">
+  <img src="logo.png" alt="logo" class="logo">
   <h1>HRM Careers Academy</h1>
-  <p><em>Learn. Teach. Thrive.</em></p>
+  <div class="slogan">Learn. Teach. Thrive.</div>
 </header>
 
-<nav>
-  <a href="index.html">Home</a> |
-  <a href="about.html">About</a> |
-  <a href="courses.html">Courses</a> |
+<nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="courses.html">Courses</a>
   <a href="contact.html">Contact</a>
 </nav>
 
 <main>
-  <h2>Contact Us</h2>
-  <p>We’d love to hear from you. Reach out for enquiries, enrolment, or support.</p>
-  <p><strong>Email:</strong> <a href="mailto:hrmcareersacademy@gmail.com">hrmcareersacademy@gmail.com</a></p>
-  <p><strong>WhatsApp:</strong> <a href="https://wa.me/270791134680">+27 0791134680</a></p>
-  <p><strong>Phone:</strong> 0732305185</p>
-  <p><strong>Address:</strong> 154 Damjee Center, Bertha Mkhize Street, Durban, 4001</p>
-
-  <h3>Quick Message</h3>
-  <form action="mailto:hrmcareersacademy@gmail.com" method="post" enctype="text/plain">
-    <input class="input" type="text" name="Name" placeholder="Your name" required>
-    <input class="input" type="email" name="Email" placeholder="Your email" required>
-    <textarea class="input" name="Message" rows="6" placeholder="Your message" required></textarea>
-    <br>
-    <input class="btn" type="submit" value="Send Message">
-  </form>
-
-  <h3 style="margin-top:30px;">Scan QR to open website</h3>
-  <p><img src="qr_code.png" alt="HRM Careers Academy QR Code" style="width:180px;"></p>
+  <section class="section">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you. Reach out for enquiries, enrolment, or support.</p>
+    <p><strong>Email:</strong> <a href="mailto:hrmcareersacademy@gmail.com">hrmcareersacademy@gmail.com</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/270791134680">+27 0791134680</a></p>
+    <p><strong>Phone:</strong> +27 0732305185</p>
+    <p><strong>Address:</strong> 154 Damjee Center, Bertha Mkhize Street, Durban, 4001</p>
+    <h3>Quick Message</h3>
+    <form action="mailto:hrmcareersacademy@gmail.com" method="post" enctype="text/plain">
+      <input class="input" type="text" name="Name" placeholder="Your name" required style="width:100%;padding:10px;margin-bottom:8px;border-radius:6px;border:1px solid #ccc;">
+      <input class="input" type="email" name="Email" placeholder="Your email" required style="width:100%;padding:10px;margin-bottom:8px;border-radius:6px;border:1px solid #ccc;">
+      <textarea class="input" name="Message" rows="6" placeholder="Your message" required style="width:100%;padding:10px;margin-bottom:8px;border-radius:6px;border:1px solid #ccc;"></textarea>
+      <br>
+      <input class="btn" type="submit" value="Send Message">
+    </form>
+    <h3 style="margin-top:24px;">Scan QR to open website</h3>
+    <p><img src="qr_code.png" alt="QR code" style="width:180px"></p>
+  </section>
 </main>
-
-<footer style="background:#000;color:gold;padding:15px;margin-top:40px;font-size:0.9em;text-align:center;">
-  <p>© 2025 HRM Careers Academy | Learn. Teach. Thrive. | Email: <a href="mailto:hrmcareersacademy@gmail.com" style="color:gold">hrmcareersacademy@gmail.com</a> | WhatsApp: <a href="https://wa.me/270791134680" style="color:gold">+27 0791134680</a></p>
+<footer>
+  <p>© 2025 HRM Careers Academy | Level 1 B-BBEE | Learn. Teach. Thrive.</p>
+  <p>Email: <a style="color:gold" href="mailto:hrmcareersacademy@gmail.com">hrmcareersacademy@gmail.com</a> | WhatsApp: <a style="color:gold" href="https://wa.me/270791134680">+27 0791134680</a></p>
 </footer>
-
 </body>
 </html>
