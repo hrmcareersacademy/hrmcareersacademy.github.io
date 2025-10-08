@@ -1,24 +1,52 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Contact - HRM Careers Academy</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — HRM Careers Academy</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header><h1>Contact Us</h1></header>
-<main>
-<p>Email: hrmcareersacademy@gmail.com</p>
-<p>Phone/WhatsApp: +27 732 305 185</p>
-<p>Location: Durban, South Africa</p>
-<form>
-<input type="text" placeholder="Your Name" required><br>
-<input type="email" placeholder="Your Email" required><br>
-<textarea placeholder="Your Message" required></textarea><br>
-<button type="submit">Send Message</button>
-</form>
-</main>
-<footer><p>&copy; 2030 HRM Careers Academy</p></footer>
+  <header class="header">
+    <div class="nav">
+      <div style="display:flex;align-items:center;gap:12px">
+        <img src="assets/logo.png" class="logo" alt="HRM Careers Academy logo">
+        <div style="line-height:1">
+          <div style="font-weight:800; color:var(--gold)">HRM Careers Academy</div>
+          <div style="font-size:0.9rem;color:var(--gold);font-style:italic">Learn. Teach. Thrive.</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="forfunders.html">For Funders</a>
+        <a href="contact.html" class="cta">Enroll Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Contact HRM Careers Academy</h2>
+    <p class="small">We'd love to hear from you. Send us a message or reach out directly on WhatsApp.</p>
+
+    <form action="#" onsubmit="alert('Thank you — your message was sent (demo).'); return false;" style="max-width:650px;margin:12px auto;text-align:left">
+      <label>Name</label>
+      <input type="text" required>
+      <label>Phone or Email</label>
+      <input type="text" required>
+      <label>Message</label>
+      <textarea rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <h3>Other ways to reach us</h3>
+    <p class="small">WhatsApp: <a href="https://wa.me/27791134680" target="_blank">+27 79 113 4680</a> | Phone: <a href="tel:+27732305185">+27 73 230 5185</a></p>
+    <p class="small">Address: 154 Damjee Center, Bertha Mkhize Street, Durban, 4001</p>
+  </main>
+
+  <footer class="footer">
+    <div>&copy; 2030 HRM Careers Academy | Level 1 B-BEE | Learn. Teach. Thrive.</div>
+  </footer>
 </body>
 </html>
